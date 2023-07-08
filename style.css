@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    width: auto;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+}
+.list ul li{
+    padding-right: 6vw;
+    transition: 0.5s;
+    
+}
+.list ul li:hover{
+    scale: 1.1;
+    text-shadow: 1px 1px 2px black;
+    
+}
+.list ul li,a{
+    font-size: 2.5vh;
+    color:black;
+    font-size: bolder;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.background{
+    /* background-color: black; */
+    background-image: url(petrol-is-combustible-mixture-gasoline-oil-motor-fuel-diesel-engine-liquid-viscous-mixture-flammable-gas-black-gold_771426-9911.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: relative;
+    height: 80vh;
+    width: 100vw;
+    margin-top:5px ;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+}
+.background ._home{
+    max-width: 30vw;
+    max-height: 50vh;
+    
+}
+.background ._home h3{
+    /* padding-top: 20vh; */
+    transform: translateX(15vw);
+    color: white;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    font-weight:initial ;
+    max-height: 50vh;
+    background-color:  #000a201d;
+    overflow-y: auto;
+
+}
+.background .image img{
+    width: 20vw;
+    height: 25vh;
+    transform: translateX(-15vw);
+} 
+
+.product{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px ;
+    
+}
+.heading p{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 50px;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+}
+.product .images{
+    /* display: inline-block; */
+    background-color: #000a201d;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    /* justify-content: space-evenly; */
+    /* gap: 6vw; */
+}
+.product .images img{
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 40%;
+    height:200px;
+    opacity: 0.5;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.product .images img:hover{
+    scale: 1.08;
+    opacity: 1;
+    box-shadow: 2px 2px 3px black;
+}
+.product .images figcaption {
+    margin-top: 5px;
+    font-weight: bold;
+    transform: translateX(50px);
+    font-size: 20px;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+}
+
+footer{
+    height: 15vh;
+    margin-left: 30px;
+
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.contact_images img{
+    margin-top: -50px;
+    margin-left: 15vw;
+    /* padding: 10px; */
+    width: 40px;
+    height: 5%;
+    transition: 0.5s;
+}
+.contact_images img:hover{
+    filter: grayscale(100%);
+    scale: 1.1;
+}
+.contact_heading p{
+    margin-top: 20px;
+    padding-right: 5vw;
+    font-size: 20px;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+}
+.copyright{
+    font-size: 10px;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+}
+.product .description p{
+    margin-left: 45px;
+    margin-bottom: -20px;
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight:bold;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+
+}
+.product .description h3{
+    padding: 10px;
+    background-color: white;
+    overflow-y: scroll;
+    margin-top: 2rem;
+    margin-left: 40px;
+    width: 90vw;
+    height: 20vh;
+    font-size: 18px;
+    font-weight:lighter;
+    transition: 0.5s;
+    font-family: Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+}
+.product .description h3:hover{
+    background-color: rgb(92, 90, 90);
+    color: white;
+}
